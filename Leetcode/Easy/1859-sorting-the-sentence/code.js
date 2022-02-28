@@ -21,7 +21,7 @@ const sortSentence = (s) => {
   return reconstructedSentence;
 };
 
-sortSentence('is2 sentence4 This1 a3');
+console.log(sortSentence('is2 sentence4 This1 a3');)
 
 // Better solution (by eazygood on LeetCode)
 
