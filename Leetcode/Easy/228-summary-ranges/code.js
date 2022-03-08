@@ -22,13 +22,11 @@ const summaryRanges = (nums) => {
     if (times > 0) {
       nums[i - 1] = `${nums[i - 1] - times}->${nums[i - 1]}`;
     }
-
-    console.log(nums);
   }
 
   return nums.map((e) => String(e));
 };
 
-console.log(summaryRanges([0, 1, 2, 4, 5, 7]));
+// console.log(summaryRanges([0, 1, 2, 4, 5, 7]));
 
-// console.log(summaryRanges([0, 2, 3, 4, 6, 8, 9]));
+console.log(summaryRanges([0, 2, 3, 4, 6, 8, 9]));
