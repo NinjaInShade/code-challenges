@@ -16,7 +16,8 @@ const firstUniqChar = (s) => {
 
   for (let [k, v] of map) {
     if (v === 0) {
-      let val = s.indexOf(k);
+      const val = s.indexOf(k);
+
       return val;
     }
   }
