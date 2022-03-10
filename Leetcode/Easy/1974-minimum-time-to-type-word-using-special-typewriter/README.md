@@ -6,7 +6,7 @@ Move the pointer one character counterclockwise or clockwise.
 Type the character the pointer is currently on.
 Given a string word, return the minimum number of seconds to type out the characters in word.
 
-[https://assets.leetcode.com/uploads/2021/07/31/chart.jpg]
+![Visualisation of typewriter]([https://assets.leetcode.com/uploads/2021/07/31/chart.jpg)
 
 Example 1:
 
